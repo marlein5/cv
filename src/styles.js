@@ -2,8 +2,8 @@ const styles = {
   root: {
     display: "flex",
     flexDirection: "column",
-    maxWidth: "200mm",
-    width: "200mm"
+    maxWidth: "210mm",
+    width: "210mm"
   },
   content: {
     display: "flex",
