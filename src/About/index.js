@@ -5,7 +5,7 @@ import styles from "../leftItemsStyles";
 const About = ({ classes }) => {
   return (
     <div className={classes.root}>
-      <div className={classes.title}>about</div>
+      <div className={classes.title}>contacto</div>
       <div>
         <a href="https://medium.com/@josfranco">medium: @josfranco</a>
       </div>

@@ -5,7 +5,10 @@ import styles from "../rightItemsStyles";
 const Education = ({ classes }) => {
   return (
     <div className={classes.root}>
-      <div className={classes.title}>educación</div>
+      <div className={classes.title}>
+        <span className={classes.pink}>edu</span>
+        cación
+      </div>
       <div className={classes.item}>
         <div className={classes.itemLeft}>2014</div>
         <div className={classes.itemRight}>

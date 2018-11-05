@@ -29,6 +29,22 @@ const styles = {
   itemSubTitle: {
     fontWeight: "bold",
     color: constants.colors.lightGray
+  },
+  itemContent: {
+    textAlign: "justify",
+    paddingTop: "2mm"
+  },
+  blue: {
+    fontWeight: "bold",
+    color: constants.colors.blue
+  },
+  pink: {
+    fontWeight: "bold",
+    color: constants.colors.pink
+  },
+  orange: {
+    fontWeight: "bold",
+    color: constants.colors.orange
   }
 };
 
