@@ -28,8 +28,7 @@ const Education = ({ classes }) => {
           <div className={classes.itemContent}>
             <div>University of Notre Dame. Indiana, EEUU.</div>
             <div>
-              Trabajado en un plug-in para Eclipse para la visualización de
-              código como gráficas.
+              Desarrollo de Eclipse plug-in para ver código como gráficas.
             </div>
           </div>
         </div>

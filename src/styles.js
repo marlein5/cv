@@ -8,9 +8,9 @@ const styles = {
     display: "flex",
     height: "255mm",
     maxHeight: "255mm",
-    paddingLeft: "10mm",
-    paddingRight: "12mm",
-    paddingBottom: "12mm",
+    paddingLeft: "30mm",
+    paddingRight: "30mm",
+    paddingBottom: "10mm",
     maxWidth: "210mm",
     width: "210mm"
   },

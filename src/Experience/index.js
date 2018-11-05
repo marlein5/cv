@@ -17,8 +17,8 @@ const Experience = ({ classes }) => {
           </span>
           <span className={classes.itemSubTitle}> Desarrollador senior</span>
           <div className={classes.itemContent}>
-            Trabajado en sitios ReactJS para buscadores de trabajo. En un
-            proyecto para cambiar URLs en el sitio principal de búsqueda para
+            Desarrollo de <a href="https://www.occ.com.mx/">OCC Mundial</a> en
+            ReactJS. Cambio de URLs en el sitio principal de búsqueda para
             mejorar ranking en SEO. Construcción y mantenimiento de pipeline
             CI/CD para mejorar el tiempo de deployment a producción. Definición
             de estandarés de código y pruebas, así como implementación de
@@ -33,9 +33,10 @@ const Experience = ({ classes }) => {
           <span className={classes.itemTitle}>SEEK. Melbourne, Australia.</span>
           <span className={classes.itemSubTitle}> Desarrollador Senior</span>
           <div className={classes.itemContent}>
-            Desarrollo de sitio en ReactJS para la busqueda de empleos. Lider
-            técnico encargado de la página de vacante. Sitio implementado en
-            arquitectura escalable para múltiples paises/marcas en Asia.
+            Desarrollo de <a href="http://hk.jobsdb.com/">JobsDB Hong Kong</a>{" "}
+            en ReactJS. Lider técnico de la página de vacante. Sitio
+            implementado en arquitectura escalable en AWS EC2 & Lambda para
+            múltiples paises/marcas en Asia.
           </div>
         </div>
       </div>
@@ -48,11 +49,10 @@ const Experience = ({ classes }) => {
           </span>
           <span className={classes.itemSubTitle}> Desarrollador Senior</span>
           <div className={classes.itemContent}>
-            Desarrollo de aplicación web Nanodrop de Thermofisher cloud. Misma
-            que permite a cientificos subir archivos y visualizarlos
-            gráficamente. Sitio construido server-less en AWS Java Lambdas.
-            DynamoDB para datos. Angular en freont-end & Jenkins para
-            deployment.
+            Desarrollo de aplicación web Nanodrop de Thermofisher cloud. Permite
+            a cientificos subir archivos y visualizarlos gráficamente. Sitio
+            construido server-less en AWS Java Lambdas, DynamoDB, Angular &
+            Jenkins para deployment.
           </div>
         </div>
       </div>

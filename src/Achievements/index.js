@@ -18,7 +18,8 @@ const Achievements = ({ classes }) => {
             <a href="https://jestjs.io/es-ES/">
               documentación de Jest a español
             </a>
-            . Trabajado en{" "}
+            . <br />
+            Aportes en{" "}
             <a href="https://github.com/coralproject/talk">
               Coral Project Talk
             </a>
@@ -68,7 +69,7 @@ const Achievements = ({ classes }) => {
               Presidente de Sociedad de Alumnos de Tecnología
             </span>
             <div className={classes.itemContent}>
-              Organización de converencias para compañeros estudiantes con
+              Organización de conferencias para compañeros estudiantes con
               presentadores de Google, IBM, Apple & Microsoft.
             </div>
           </div>
