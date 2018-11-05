@@ -12,7 +12,7 @@ const Programming = ({ classes }) => {
       <div>Lambda</div>
       <div>CloudFront</div>
       <div>C#</div>
-      <div>ASP.NET MVC,</div>
+      <div>ASP.NET MVC</div>
       <div>Oracle</div>
       <div>PL/SQL</div>
     </div>

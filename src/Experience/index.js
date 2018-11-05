@@ -15,7 +15,7 @@ const Experience = ({ classes }) => {
           <span className={classes.itemTitle}>
             OCC Mundial. Querétaro, México.
           </span>
-          <span className={classes.itemSubTitle}> Desarrollador senior</span>
+          <span className={classes.itemSubTitle}> Desarrollador Senior</span>
           <div className={classes.itemContent}>
             Desarrollo de <a href="https://www.occ.com.mx/">OCC Mundial</a> en
             ReactJS. Cambio de URLs en el sitio principal de búsqueda para
@@ -34,9 +34,9 @@ const Experience = ({ classes }) => {
           <span className={classes.itemSubTitle}> Desarrollador Senior</span>
           <div className={classes.itemContent}>
             Desarrollo de <a href="http://hk.jobsdb.com/">JobsDB Hong Kong</a>{" "}
-            en ReactJS. Lider técnico de la página de vacante. Sitio
+            en ReactJS. Líder técnico de la página de vacante. Sitio
             implementado en arquitectura escalable en AWS EC2 & Lambda para
-            múltiples paises/marcas en Asia.
+            múltiples países/marcas en Asia.
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ const Experience = ({ classes }) => {
           <span className={classes.itemSubTitle}> Desarrollador Senior</span>
           <div className={classes.itemContent}>
             Desarrollo de aplicación web Nanodrop de Thermofisher cloud. Permite
-            a cientificos subir archivos y visualizarlos gráficamente. Sitio
+            a científicos subir archivos y visualizarlos gráficamente. Sitio
             construido server-less en AWS Java Lambdas, DynamoDB, Angular &
             Jenkins para deployment.
           </div>

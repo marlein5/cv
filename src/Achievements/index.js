@@ -50,7 +50,7 @@ const Achievements = ({ classes }) => {
               Finalista anual 3 años de Microsoft Imagine Cup México
             </span>
             <div className={classes.itemContent}>
-              Diseño y desarrollo de aplicaciones web y mobiles en plataformas
+              Diseño y desarrollo de aplicaciones web y móviles en plataformas
               Microsoft. Proyectos que buscaban resolver diferentes problemas
               sociales, como emergencias medicas, incrementar la donación
               voluntaria de sangre y reducir el uso de energia en oficinas.
