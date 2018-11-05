@@ -1,14 +1,24 @@
 import React from "react";
+import injectSheet from "react-jss";
+import styles from "../leftItemsStyles";
 
-const About = () => {
+const About = ({ classes }) => {
   return (
-    <div>
-      <div>about</div>
-      <div>medium: @josfranco</div>
-      <div>github: @pepefranco</div>
-      <div>linkedin: José Franco</div>
+    <div className={classes.root}>
+      <div className={classes.title}>about</div>
+      <div>
+        <a href="https://medium.com/@josfranco">medium: @josfranco</a>
+      </div>
+      <div>
+        <a href="https://github.com/PepeFranco">github: @pepefranco</a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+          linkedin: José Franco
+        </a>
+      </div>
     </div>
   );
 };
 
-export default About;
+export default injectSheet(styles)(About);

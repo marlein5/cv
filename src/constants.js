@@ -5,7 +5,8 @@ const constants = {
     lightGray: "#999999"
   },
   text: {
-    header: '32px',
+    header: "10mm",
+    sectionHeader: "6mm"
   }
 };
 
