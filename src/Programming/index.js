@@ -13,7 +13,7 @@ const Programming = ({ classes }) => {
       <div>CloudFront</div>
       <div>C#</div>
       <div>ASP.NET MVC</div>
-      <div>Oracle</div>
+      <div>Oracle BD</div>
       <div>PL/SQL</div>
     </div>
   );
