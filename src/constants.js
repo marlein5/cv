@@ -8,8 +8,8 @@ const constants = {
     orange: "#FDA333"
   },
   text: {
-    header: "10mm",
-    sectionHeader: "6mm"
+    header: "32px",
+    sectionHeader: "14px"
   }
 };
 

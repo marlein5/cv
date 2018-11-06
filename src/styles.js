@@ -5,20 +5,27 @@ const styles = {
     alignItems: "center"
   },
   content: {
-    display: "flex",
-    height: "255mm",
-    maxHeight: "255mm",
-    paddingLeft: "30mm",
-    paddingRight: "30mm",
-    paddingBottom: "10mm",
+    marginLeft: "10vw",
+    marginRight: "10vw",
+    marginBottom: "5vw",
     maxWidth: "210mm",
-    width: "210mm"
+    flexDirection: "column",
+    "@media (min-width: 600px)": {
+      display: "flex",
+      flexDirection: "row"
+    }
   },
   leftColumn: {
-    flex: 1
+    display: "flex",
+    "@media (min-width: 600px)": {
+      display: "block",
+      flex: 1
+    }
   },
   rightColumn: {
-    flex: 4
+    "@media (min-width: 600px)": {
+      flex: 4
+    }
   }
 };
 

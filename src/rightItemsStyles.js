@@ -4,14 +4,16 @@ const styles = {
   root: {
     display: "flex",
     flexDirection: "column",
-    paddingTop: "3mm",
-    paddingLeft: "10mm"
+    paddingTop: "1vh",
+    "@media (min-width: 600px)": {
+      paddingLeft: "5vh"
+    }
   },
   title: {
     fontSize: constants.text.sectionHeader
   },
   item: {
-    paddingTop: "3mm",
+    paddingTop: "1vh",
     display: "flex",
     flexDirection: "row"
   },
@@ -32,7 +34,7 @@ const styles = {
   },
   itemContent: {
     textAlign: "justify",
-    paddingTop: "2mm"
+    paddingTop: "1vh"
   },
   blue: {
     fontWeight: "bold",

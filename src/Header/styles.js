@@ -7,9 +7,9 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    height: "30mm",
+    height: "10vh",
     width: "100%",
-    marginBottom: "6mm"
+    marginBottom: "1vh"
   },
   name: {
     fontSize: constants.text.header,
