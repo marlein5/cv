@@ -9,24 +9,33 @@ import Education from "./Education";
 import Achievements from "./Achievements";
 import styles from "./styles";
 
-const App = ({ classes }) => {
-  return (
-    <div className={classes.root}>
-      <Header />
-      <div className={classes.content}>
-        <div className={classes.leftColumn}>
-          <About />
-          <Languages />
-          <Programming />
-        </div>
-        <div className={classes.rightColumn}>
-          <Experience />
-          <Education />
-          <Achievements />
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = { language: "en", printing: false };
+  }
+
+  render() {
+    const { classes } = this.props;
+    const { language } = this.state;
+    return (
+      <div className={classes.root}>
+        <Header language={language} />
+        <div className={classes.content}>
+          <div className={classes.leftColumn}>
+            <About language={language} />
+            <Languages language={language} />
+            <Programming language={language} />
+          </div>
+          <div className={classes.rightColumn}>
+            <Experience language={language} />
+            <Education language={language} />
+            <Achievements language={language} />
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default injectSheet(styles)(App);

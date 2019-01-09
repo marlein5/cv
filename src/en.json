@@ -1,0 +1,106 @@
+{
+  "header": {
+    "name": "Jose Franco",
+    "jobTitle": "Web Developer",
+    "mail": "jose.franco@outlook.com"
+  },
+  "about": {
+    "title": "contact",
+    "items": [
+      { "url": "https://medium.com/@josfranco", "text": "medium: @josfranco" },
+      { "url": "https://github.com/PepeFranco", "text": "github: @pepefranco" },
+      {
+        "url": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+        "text": "linkedin: @Jose Franco"
+      }
+    ]
+  },
+  "languages": {
+    "title": "languages",
+    "items": ["spanish", "portuguese"]
+  },
+  "programming": {
+    "title": "tools",
+    "items": [
+      "Javascript",
+      "React",
+      "AWS EC2",
+      "Lambda",
+      "Cloudfront",
+      "C#",
+      "ASP.NET MVC",
+      "Oracle DB",
+      "PL/SQL"
+    ]
+  },
+  "experience": {
+    "title": "experience",
+    "items": [
+      {
+        "date": "2018 - Current",
+        "title": "OCC Mundial. Queretaro, Mexico",
+        "subtitle": " Senior Developer",
+        "content": "Development of <a href='https://www.occ.com.mx/'>OCC Mundial</a> main site on ReactJS. Changed URLs on site to get better SEO ranking. Helped in developing and mantaining CI/CD pipeline to decrease release time. Defined code standards for front-end developers. Training and coaching of junior developers"
+      },
+      {
+        "date": "2018",
+        "title": "SEEK. Melbourne, Australia.",
+        "subtitle": " Senior Developer",
+        "content": "Development of <a href='http://hk.jobsdb.com/'>JobsDB Hong Kong</a> job search site on ReactJS. Tech lead for job detail page. Site built on escalable architecture on AWS EC2 & Lamba for multiple countries & brands on southeast Asia."
+      },
+      {
+        "date": "2016",
+        "title": "Thermofisher Scientific. Tijuana, Mexico.",
+        "subtitle": " Senior Developer",
+        "content": "Development of Nanodrop web app for Thermofisher cloud. It allowed scientists to upload files and visualize data in graphs. Site build server-less on AWS Java Lambdas, DynamoDB, Angular for front-end and Jenkins for deployment."
+      },
+      {
+        "date": "2015",
+        "title": "Oracle. Guadalajara, Mexico.",
+        "subtitle": " Business Intelligence Analyst",
+        "content": "Improved OBIEE reports. Optimized processing time up to 90% through PL/SQL code refactoring."
+      }
+    ]
+  },
+  "education": {
+    "title": "education",
+    "items": [
+      {
+        "date": "2014",
+        "title": "B.S. Computer Science",
+        "content": "Tecnologico de Monterrey. Cuernavaca, Mexico"
+      },
+      {
+        "date": "2014",
+        "title": "Research Program",
+        "content": "University of Notre Dame. Indiana. USA.",
+        "subContent": "Development of Eclipse plugin to visualize code as node graphs."
+      }
+    ]
+  },
+  "achievements": {
+    "title": "achievements",
+    "items": [
+      {
+        "date": "2017",
+        "title": "Open Source Colaborator",
+        "content": "Translated <a href='https://jestjs.io/es-ES/'>Jest documentation to spanish</a>. <br />Contibuted to <a href='https://github.com/coralproject/talk'>Coral Project Talk</a>."
+      },
+      {
+        "date": "2015",
+        "title": "Facebook Developer Circles Speaker",
+        "content": "Presented about unit testing on ReactJS at a meetup."
+      },
+      {
+        "date": "2011 - 2014",
+        "title": "3 times national finalist of Microsoft Imagine Cup Mexico",
+        "content": "Development of web & mobile apps for Microsoft platforms. Our projects aimed at solving different social issues, such as medical emergencies, increase blood donation & effective use of energy at interiors. Tools used include Windows Phone SDK, .NEt MVC & Azure."
+      },
+      {
+        "date": "2012",
+        "title": "IT Students Association President",
+        "content": "Organized different talks for fellow students with speakers from Google, IBM, Apple & Microsoft."
+      }
+    ]
+  }
+}

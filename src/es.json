@@ -1,0 +1,106 @@
+{
+  "header": {
+    "name": "Jose Franco",
+    "jobTitle": "Desarrollador web",
+    "mail": "jose.franco@outlook.com"
+  },
+  "about": {
+    "title": "contact",
+    "items": [
+      { "url": "https://medium.com/@josfranco", "text": "medium: @josfranco" },
+      { "url": "https://github.com/PepeFranco", "text": "github: @pepefranco" },
+      {
+        "url": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+        "text": "linkedin: @José Franco"
+      }
+    ]
+  },
+  "languages": {
+    "title": "lenguajes",
+    "items": ["inglés", "portugues"]
+  },
+  "programming": {
+    "title": "tools",
+    "items": [
+      "Javascript",
+      "React",
+      "AWS EC2",
+      "Lambda",
+      "Cloudfront",
+      "C#",
+      "ASP.NET MVC",
+      "Oracle BD",
+      "PL/SQL"
+    ]
+  },
+  "experience": {
+    "title": "experiencia",
+    "items": [
+      {
+        "date": "2018 - Actual",
+        "title": "OCC Mundial. Querétaro, México",
+        "subtitle": " Desarrollador Senior",
+        "content": "Desarrollo de <a href='https://www.occ.com.mx/'>OCC Mundial</a> en ReactJS. Cambio de URLs en el sitio principal de búsqueda para mejorar ranking en SEO. Construcción y mantenimiento de pipeline CI/CD para mejorar el tiempo de deployment a producción. Definición de estandarés de código. Training de desarrolladores juniors."
+      },
+      {
+        "date": "2018",
+        "title": "SEEK. Melbourne, Australia.",
+        "subtitle": " Desarrollador Senior",
+        "content": "Desarrollo de <a href='http://hk.jobsdb.com/'>JobsDB Hong Kong</a> en ReactJS. Líder técnico de la página de vacante. Sitio implementado en arquitectura escalable en AWS EC2 & Lambda para múltiples países/marcas en el sureste de Asia."
+      },
+      {
+        "date": "2016",
+        "title": "Thermofisher Scientific. Tijuana, México.",
+        "subtitle": " Desarrollador Senior",
+        "content": "Desarrollo de aplicación web Nanodrop de Thermofisher cloud. Permite a científicos subir archivos y visualizarlos gráficamente. Sitio construido server-less en AWS Java Lambdas, DynamoDB, Angular & Jenkins para deployment."
+      },
+      {
+        "date": "2015",
+        "title": "Oracle. Guadalajara, México.",
+        "subtitle": " Analista Business Intelligence",
+        "content": "Mejoras en reportes OBIEE. Optimización de tiempos de procesamiento de reportes en hasta 90% a través de refactorización de código PL/SQL."
+      }
+    ]
+  },
+  "education": {
+    "title": "educación",
+    "items": [
+      {
+        "date": "2014",
+        "title": "Ingeniería en Tecnologías Computacionales.",
+        "content": "Tecnologico de Monterrey. Cuernavaca, México"
+      },
+      {
+        "date": "2014",
+        "title": "Programa de investigación",
+        "content": "University of Notre Dame. Indiana. EEUU.",
+        "subContent": "Desarrollo de Eclipse plug-in para ver código como gráficas."
+      }
+    ]
+  },
+  "achievements": {
+    "title": "logros",
+    "items": [
+      {
+        "date": "2017",
+        "title": "Colaborador Open Source",
+        "content": "Traducción de <a href='https://jestjs.io/es-ES/'>la documentación de Jest en español</a>. <br />Aportado a<a href='https://github.com/coralproject/talk'>Coral Project Talk</a>."
+      },
+      {
+        "date": "2015",
+        "title": "Presentador en Facebook Developer Circles",
+        "content": "Presentación de Unit testing en aplicaciones ReactJS en un meetup."
+      },
+      {
+        "date": "2011 - 2014",
+        "title": "3 veces finalista de Microsoft Imagine Cup Mexico",
+        "content": "Desarrollo de apps web & móviles apps en plataformas Microsoft. Con proyectos que buscaban resolver diferentes problemas sociales, como emergencias medicas, incrementar la donación de sangre & hacer más eficiente el uso de energia en interiores. Herramientas usadas incluyen Windows Phone SDK, .NEt MVC & Azure."
+      },
+      {
+        "date": "2012",
+        "title": "Presidente de Sociedad de Alumnos de Tecnología",
+        "content": "Organización de conferencias para compañeros estudiantes con presentadores de Google, IBM, Apple & Microsoft."
+      }
+    ]
+  }
+}
