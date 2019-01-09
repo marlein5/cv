@@ -2,14 +2,14 @@ import React from "react";
 import styles from "./styles";
 import injectSheet from "react-jss";
 
-const Header = ({ classes }) => {
+const Header = ({ classes, cv }) => {
   return (
     <div className={classes.root}>
-      <div className={classes.name}>José Franco</div>
+      <div className={classes.name}>{cv.header.name}</div>
       <div className={classes.contact}>
-        Desarrollador web -{" "}
-        <a href="mailto:jose.franco@outlook.com" className={classes.mail}>
-          jose.franco@outlook.com
+        {cv.header.jobTitle} -{" "}
+        <a href={`mailto:${cv.header.mail}`} className={classes.mail}>
+          {cv.header.mail}
         </a>
       </div>
     </div>

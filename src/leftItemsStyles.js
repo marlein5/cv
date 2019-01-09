@@ -4,7 +4,6 @@ const styles = {
   root: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "flex-start",
     flex: 1,
     alignItems: "space-evenly",
     "@media (min-width: 600px)": {

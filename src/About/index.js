@@ -2,21 +2,17 @@ import React from "react";
 import injectSheet from "react-jss";
 import styles from "../leftItemsStyles";
 
-const About = ({ classes }) => {
+const About = ({ classes, cv }) => {
   return (
     <div className={classes.root}>
-      <div className={classes.title}>contacto</div>
-      <div>
-        <a href="https://medium.com/@josfranco">medium: @josfranco</a>
-      </div>
-      <div>
-        <a href="https://github.com/PepeFranco">github: @pepefranco</a>
-      </div>
-      <div>
-        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-          linkedin: José Franco
-        </a>
-      </div>
+      <div className={classes.title}>{cv.about.title}</div>
+      {cv.about.items.map(item => {
+        return (
+          <div key={item.text}>
+            <a href={item.url}>{item.text}</a>
+          </div>
+        );
+      })}
     </div>
   );
 };

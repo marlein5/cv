@@ -2,19 +2,13 @@ import React from "react";
 import injectSheet from "react-jss";
 import styles from "../leftItemsStyles";
 
-const Programming = ({ classes }) => {
+const Programming = ({ classes, cv }) => {
   return (
     <div className={classes.root}>
-      <div className={classes.title}>tecnologías</div>
-      <div>Javascript</div>
-      <div>React</div>
-      <div>AWS EC2</div>
-      <div>Lambda</div>
-      <div>CloudFront</div>
-      <div>C#</div>
-      <div>ASP.NET MVC</div>
-      <div>Oracle BD</div>
-      <div>PL/SQL</div>
+      <div className={classes.title}>{cv.programming.title}</div>
+      {cv.programming.items.map(item => {
+        return <div key={item}>{item}</div>;
+      })}
     </div>
   );
 };

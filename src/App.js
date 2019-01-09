@@ -8,29 +8,32 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Achievements from "./Achievements";
 import styles from "./styles";
+import en from "./en";
+import es from "./es";
 
 class App extends React.Component {
   constructor() {
     super();
-    this.state = { language: "en", printing: false };
+    this.state = { language: "es", printing: false };
   }
 
   render() {
     const { classes } = this.props;
     const { language } = this.state;
+    const cv = language === "en" ? en : es;
     return (
       <div className={classes.root}>
-        <Header language={language} />
+        <Header cv={cv} />
         <div className={classes.content}>
           <div className={classes.leftColumn}>
-            <About language={language} />
-            <Languages language={language} />
-            <Programming language={language} />
+            <About cv={cv} />
+            <Languages cv={cv} />
+            <Programming cv={cv} />
           </div>
           <div className={classes.rightColumn}>
-            <Experience language={language} />
-            <Education language={language} />
-            <Achievements language={language} />
+            <Experience cv={cv} />
+            <Education cv={cv} />
+            <Achievements cv={cv} />
           </div>
         </div>
       </div>
