@@ -13,7 +13,7 @@ const Education = ({ classes, cv }) => {
       </div>
       {cv.education.items.map(item => {
         return (
-          <div className={classes.item}>
+          <div className={classes.item} key={item.title}>
             <div className={classes.itemLeft}>{item.date}</div>
             <div className={classes.itemRight}>
               <span className={classes.itemTitle}>{item.title}</span>

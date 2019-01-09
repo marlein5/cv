@@ -2,14 +2,14 @@ import constants from "../constants";
 
 const styles = {
   root: {
-    backgroundColor: constants.colors.gray,
     color: "white",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     height: "10vh",
     width: "100%",
-    marginBottom: "1vh"
+    marginBottom: "1vh",
+    backgroundColor: constants.colors.gray
   },
   name: {
     fontSize: constants.text.header,

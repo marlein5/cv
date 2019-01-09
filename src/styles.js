@@ -1,8 +1,17 @@
+import constants from "./constants";
+
 const styles = {
   root: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center"
+  },
+  flag: {
+    display: "flex",
+    justifyContent: "flex-end",
+    width: "100%",
+    position: "absolute",
+    top: "10vh"
   },
   content: {
     marginLeft: "10vw",

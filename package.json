@@ -5,10 +5,12 @@
   "dependencies": {
     "@progress/kendo-drawing": "^1.5.7",
     "@progress/kendo-react-pdf": "^2.5.0",
+    "babel-loader": "^8.0.5",
     "jss": "^9.8.7",
     "jss-preset-default": "^4.5.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-flags-select": "^1.1.10",
     "react-jss": "^8.6.1",
     "react-scripts": "2.1.1"
   },
