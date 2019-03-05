@@ -37,10 +37,10 @@
     "title": "experience",
     "items": [
       {
-        "date": "2018 - Current",
+        "date": "2016 - Current",
         "title": "OCC Mundial. Queretaro, Mexico",
-        "subtitle": " Senior Developer",
-        "content": "Development of <a href='https://www.occ.com.mx/'>OCC Mundial</a> main site on ReactJS. Changed URLs on site to get better SEO ranking. Helped in developing and mantaining CI/CD pipeline to decrease release time. Defined code standards for front-end developers. Training and coaching of junior developers"
+        "subtitle": " Computer Systems Engineer",
+        "content": "Development of <a href='https://www.occ.com.mx/'>OCC Mundial</a> main site on ReactJS. Changed URLs on site to get better SEO ranking. Helped in developing and mantaining CI/CD pipeline to decrease release time. Defined code standards for front-end developers. Training and coaching of junior developers."
       },
       {
         "date": "2018",
@@ -84,7 +84,7 @@
       {
         "date": "2017",
         "title": "Open Source Colaborator",
-        "content": "Translated <a href='https://jestjs.io/es-ES/'>Jest documentation to spanish</a>. <br />Contibuted to <a href='https://github.com/coralproject/talk'>Coral Project Talk</a>."
+        "content": "Helped translating <a href='https://crowdin.com/project/react/es-MX#'>React</a> and <a href='https://jestjs.io/es-ES/'>Jest</a> docs to Spanish. <br />Contibuted to <a href='https://github.com/coralproject/talk'>Coral Project Talk</a>."
       },
       {
         "date": "2015",

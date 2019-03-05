@@ -37,7 +37,7 @@
     "title": "experiencia",
     "items": [
       {
-        "date": "2018 - Actual",
+        "date": "2016 - Actual",
         "title": "OCC Mundial. Querétaro, México",
         "subtitle": " Desarrollador Senior",
         "content": "Desarrollo de <a href='https://www.occ.com.mx/'>OCC Mundial</a> en ReactJS. Cambio de URLs en el sitio principal de búsqueda para mejorar ranking en SEO. Construcción y mantenimiento de pipeline CI/CD para mejorar el tiempo de deployment a producción. Definición de estandarés de código. Training de desarrolladores juniors."
@@ -84,7 +84,7 @@
       {
         "date": "2017",
         "title": "Colaborador Open Source",
-        "content": "Traducción de <a href='https://jestjs.io/es-ES/'>la documentación de Jest en español</a>. <br />Aportado a<a href='https://github.com/coralproject/talk'>Coral Project Talk</a>."
+        "content": "Colaborador en traducción de docs de <a href='https://crowdin.com/project/react/es-MX#'>React</a> y <a href='https://jestjs.io/es-ES/'>Jest</a> a español. <br />Aportado a<a href='https://github.com/coralproject/talk'>Coral Project Talk</a>."
       },
       {
         "date": "2015",

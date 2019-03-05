@@ -1,5 +1,3 @@
-import constants from "./constants";
-
 const styles = {
   root: {
     display: "flex",
