@@ -11,9 +11,9 @@ const Experience = ({ classes, cv }) => {
         </span>
         {cv.experience.title.substring(3, cv.experience.title.length)}
       </div>
-      {cv.experience.items.map(item => {
+      {cv.experience.items.map((item, index) => {
         return (
-          <div className={classes.item} key={`${item.title}-${cv.language}`}>
+          <div className={classes.item} key={`${item.title}-${item.date}`}>
             <div className={classes.itemLeft}>{item.date}</div>
             <div className={classes.itemRight}>
               <span className={classes.itemTitle}>{item.title}</span>
