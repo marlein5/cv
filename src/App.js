@@ -10,7 +10,6 @@ import Achievements from "./Achievements";
 import styles from "./styles";
 import en from "./en";
 import es from "./es";
-import pt from "./pt";
 import ReactFlagsSelect from "react-flags-select";
 import "react-flags-select/css/react-flags-select.css";
 
@@ -21,14 +20,12 @@ class App extends React.Component {
   }
 
   chooseLanguage = option => {
-    if (option === "BR") this.setState({ language: "pt" });
     if (option === "MX") this.setState({ language: "es" });
     if (option === "AU") this.setState({ language: "en" });
   };
 
   getCVInLanguage = () => {
     const { language } = this.state;
-    if(language === 'pt') return pt;
     if(language === 'es') return es;
     if(language === 'en') return en;
   }
@@ -42,8 +39,8 @@ class App extends React.Component {
         <div className={classes.flag}>
           <ReactFlagsSelect
             defaultCountry="AU"
-            countries={["AU", "MX", "BR"]}
-            customLabels={{ AU: "English", MX: "Español", BR: "Português" }}
+            countries={["AU", "MX"]}
+            customLabels={{ AU: "English", MX: "Español"}}
             onSelect={this.chooseLanguage}
           />
         </div>
