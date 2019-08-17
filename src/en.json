@@ -1,6 +1,6 @@
 {
   "header": {
-    "name": "Jose Franco",
+    "name": "Pepe Franco",
     "jobTitle": "Web Developer",
     "mail": "jose.franco@outlook.com"
   },
@@ -10,7 +10,7 @@
       { "url": "https://medium.com/@josfranco", "text": "medium: @josfranco" },
       { "url": "https://github.com/PepeFranco", "text": "github: @pepefranco" },
       {
-        "url": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+        "url": "https://www.linkedin.com/in/josé-franco-1ab74573",
         "text": "linkedin: @Jose Franco"
       }
     ]
@@ -37,10 +37,16 @@
     "title": "experience",
     "items": [
       {
-        "date": "2016 - Current",
+        "date": "2019",
+        "title": "SEEK. Melbourne, Australia.",
+        "subtitle": " Senior Developer",
+        "content": "Development of <a href='http://seek.com.au/'>SEEK</a> apply page on ReactJS. Building new experimental features with best development practices and maintanibility-first mindset. Updating and mantaining C# legacy system."
+      },
+      {
+        "date": "2016 - 2019",
         "title": "OCC Mundial. Queretaro, Mexico",
         "subtitle": " Senior Developer",
-        "content": "Development of <a href='https://www.occ.com.mx/'>OCC Mundial</a> main site on ReactJS. Changed URLs on site to get better SEO ranking. Helped in developing and mantaining CI/CD pipeline to decrease release time. Defined code standards for front-end developers. Training and coaching of junior developers."
+        "content": "Development of <a href='https://www.occ.com.mx/'>OCC Mundial</a> main site on ReactJS. Changed URLs on site to get better SEO ranking creating an uplift of organic traffic of 30%. Helped in developing and mantaining CI/CD pipeline to decrease release time. Defined code standards for front-end developers. Training and coaching of junior developers."
       },
       {
         "date": "2018",

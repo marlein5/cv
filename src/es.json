@@ -1,6 +1,6 @@
 {
   "header": {
-    "name": "Jose Franco",
+    "name": "Pepe Franco",
     "jobTitle": "Desarrollador web",
     "mail": "jose.franco@outlook.com"
   },
@@ -10,7 +10,7 @@
       { "url": "https://medium.com/@josfranco", "text": "medium: @josfranco" },
       { "url": "https://github.com/PepeFranco", "text": "github: @pepefranco" },
       {
-        "url": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+        "url": "https://www.linkedin.com/in/josé-franco-1ab74573",
         "text": "linkedin: @José Franco"
       }
     ]
@@ -37,10 +37,16 @@
     "title": "experiencia",
     "items": [
       {
-        "date": "2016 - Actual",
+        "date": "2019",
+        "title": "SEEK. Melbourne, Australia.",
+        "subtitle": " Desarrollador Senior",
+        "content": "Desarrollo de la página para aplicar a trabajos en <a href='http://seek.com.au/'>SEEK</a>. Construyendo nuevas funcionalidades experimentales con mejores practicas y priorizando la mantenibilidad del código. Actualizando y manteniendo un sistema legacy en C#."
+      },
+      {
+        "date": "2016 - 2019",
         "title": "OCC Mundial. Querétaro, México",
         "subtitle": " Desarrollador Senior",
-        "content": "Desarrollo de <a href='https://www.occ.com.mx/'>OCC Mundial</a> en ReactJS. Cambio de URLs en el sitio principal de búsqueda para mejorar ranking en SEO. Construcción y mantenimiento de pipeline CI/CD para mejorar el tiempo de deployment a producción. Definición de estandarés de código. Training de desarrolladores juniors."
+        "content": "Desarrollo de <a href='https://www.occ.com.mx/'>OCC Mundial</a> en ReactJS. Cambio de URLs en el sitio principal de búsqueda para mejorar ranking en SEO creando un incremento en tráfico organico de 30%. Construcción y mantenimiento de pipeline CI/CD para mejorar el tiempo de deployment a producción. Definición de estandarés de código. Training de desarrolladores juniors."
       },
       {
         "date": "2018",
