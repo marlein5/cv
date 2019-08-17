@@ -1,18 +1,20 @@
 {
   "language":"english",
   "header": {
-    "name": "Pepe Franco",
-    "jobTitle": "Web Developer",
-    "mail": "jose.franco@outlook.com"
+    "name": "Marlein Anaya",
+    "jobTitle": "Product Manager",
+    "mail": "marlein_anaya@hotmail.com"
   },
   "about": {
     "title": "contact",
     "items": [
-      { "url": "https://medium.com/@josfranco", "text": "medium: @josfranco" },
-      { "url": "https://github.com/PepeFranco", "text": "github: @pepefranco" },
       {
         "url": "https://www.linkedin.com/in/josé-franco-1ab74573",
-        "text": "linkedin: @Jose Franco"
+        "text": "linkedin: @Marlein Anaya"
+      },
+      {
+        "url": "#",
+        "text": "phone: +61 410 101 907"
       }
     ]
   },
