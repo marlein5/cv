@@ -19,6 +19,12 @@ class App extends React.Component {
     this.state = { language: "en", printing: false };
   }
 
+  chooseLanguage = option => {
+    if (option === "BR") this.setState({ language: "pt" });
+    if (option === "MX") this.setState({ language: "es" });
+    if (option === "AU") this.setState({ language: "en" });
+  };
+
   render() {
     const { classes } = this.props;
     const { language } = this.state;
@@ -28,12 +34,10 @@ class App extends React.Component {
         <Header cv={cv} />
         <div className={classes.flag}>
           <ReactFlagsSelect
-            defaultCountry="GB"
-            countries={["GB", "ES"]}
-            customLabels={{ GB: "EN", ES: "ES" }}
-            onSelect={option => {
-              this.setState({ language: option === "GB" ? "en" : "es" });
-            }}
+            defaultCountry="AU"
+            countries={["AU", "MX", "BR"]}
+            customLabels={{ AU: "English", MX: "Español", BR: "Português" }}
+            onSelect={this.chooseLanguage}
           />
         </div>
         <div className={classes.content}>
