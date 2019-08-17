@@ -13,7 +13,7 @@ const Experience = ({ classes, cv }) => {
       </div>
       {cv.experience.items.map(item => {
         return (
-          <div className={classes.item} key={item.title}>
+          <div className={classes.item} key={`${item.title}-${cv.language}`}>
             <div className={classes.itemLeft}>{item.date}</div>
             <div className={classes.itemRight}>
               <span className={classes.itemTitle}>{item.title}</span>

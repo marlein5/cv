@@ -1,0 +1,113 @@
+{
+  "language":"portuguese",
+  "header": {
+    "name": "Pepe Franco",
+    "jobTitle": "Desenvolvedor Web",
+    "mail": "jose.franco@outlook.com"
+  },
+  "about": {
+    "title": "contato",
+    "items": [
+      { "url": "https://medium.com/@josfranco", "text": "medium: @josfranco" },
+      { "url": "https://github.com/PepeFranco", "text": "github: @pepefranco" },
+      {
+        "url": "https://www.linkedin.com/in/josé-franco-1ab74573",
+        "text": "linkedin: @Jose Franco"
+      }
+    ]
+  },
+  "languages": {
+    "title": "línguas",
+    "items": ["inglês", "espanhol"]
+  },
+  "programming": {
+    "title": "ferramentas",
+    "items": [
+      "Javascript",
+      "React",
+      "AWS EC2",
+      "Lambda",
+      "Cloudfront",
+      "C#",
+      "ASP.NET MVC",
+      "Oracle DB",
+      "PL/SQL"
+    ]
+  },
+  "experience": {
+    "title": "experiencia",
+    "items": [
+      {
+        "date": "2019",
+        "title": "SEEK. Melbourne, Austrália.",
+        "subtitle": " Desenvolvedor Sênior",
+        "content": "Desenvolvimento da pagina para aplicar a vagas <a href='http://seek.com.au/'>SEEK</a>. Construindo novas funções experimentais com boas práticas e manutenção como guias de desenvolvimento. Atualizando e mantendo sistema legado em C#."
+      },
+      {
+        "date": "2016 - 2019",
+        "title": "OCC Mundial. Queretaro, México",
+        "subtitle": " Desenvolvedor Sênior",
+        "content": "Desenvolvimento do sítio principal da <a href='https://www.occ.com.mx/'>OCC Mundial</a> em ReactJS. Mudei as URls do sítio para obter melhor ranking SEO e ganhar 30% de tráfego orgânico. Ajudei em implementar e manter o pipeline CI/CD para reduzir o tempo de lançamento. Defini os padrões de code para os desenvolvedores front-end. Treine desenvolvedores juniors."
+      },
+      {
+        "date": "2018",
+        "title": "SEEK. Melbourne, Austrália.",
+        "subtitle": " Desenvolvedor Sênior",
+        "content": "Desenvolvimento do sítio <a href='http://hk.jobsdb.com/'>JobsDB</a> em Hong Kong com ReactJS. Líder técnico para a página de detalhe de vagas. Sítio construído com arquitectura escalável em AWS EC2 & Lamba para vários países & marcas no sudeste da Ásia."
+      },
+      {
+        "date": "2016",
+        "title": "Thermofisher Scientific. Tijuana, México.",
+        "subtitle": " Desenvolvedor Sênior",
+        "content": "Desenvolvimento da app web Nanodrop para o Thermofisher cloud. Permite a os cientistas enviar files para visualizar dados em gráficos. Sítio construido com tecnologia serverless com AWS Java Lambdas, DynamoDB, Angular para o front-end e Jenkins para lançamento."
+      },
+      {
+        "date": "2015",
+        "title": "Oracle. Guadalajara, México.",
+        "subtitle": " Analista Business Intelligence",
+        "content": "Melhorei relátorios OBIEE. Otimizei tempo de processamento até 90% através de refatoração de code PL/SQL."
+      }
+    ]
+  },
+  "education": {
+    "title": "educação",
+    "items": [
+      {
+        "date": "2014",
+        "title": "B.S. Ciência da Computação",
+        "content": "Tecnológico de Monterrey. Cuernavaca, México"
+      },
+      {
+        "date": "2014",
+        "title": "Programa de pesquisa",
+        "content": "University of Notre Dame. Indiana. EUA.",
+        "subContent": "Desenvolvimento de um plugin para Eclipse para visualizar code como gráficos de nós."
+      }
+    ]
+  },
+  "achievements": {
+    "title": "achievements",
+    "items": [
+      {
+        "date": "2017",
+        "title": "Colaborador Open Source",
+        "content": "Ajudei traduzir a documentação do <a href='https://crowdin.com/project/react/es-MX#'>React</a> e <a href='https://jestjs.io/es-ES/'>Jest</a> a Espanhol. <br />Contribui a o<a href='https://github.com/coralproject/talk'>Coral Project Talk</a>."
+      },
+      {
+        "date": "2015",
+        "title": "Apresentador em Facebook Developer Circles",
+        "content": "Apresentei sobre o unit testing em ReactJS em um encontro."
+      },
+      {
+        "date": "2011 - 2014",
+        "title": "3 vezes finalista do Microsoft Imagine Cup México",
+        "content": "Desenvolvimento de apps & sítios em plataformas Microsoft. Nossos projectos tiveram o objetivo de resolver varios problemas sociais, como emergências médicas, aumentar a doação de sangue & melhorar o uso de energia nos interiores. Ferramentas usadas foram Windows Phone SDK, .NET MVC & Azure."
+      },
+      {
+        "date": "2012",
+        "title": "Presidente da Associação de estudantes em tecnologia",
+        "content": "Organizei palestras diferentes para estudantes em tecnologia com apresentadores de Google, IBM, Apple & Microsoft."
+      }
+    ]
+  }
+}

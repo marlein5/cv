@@ -10,6 +10,7 @@ import Achievements from "./Achievements";
 import styles from "./styles";
 import en from "./en";
 import es from "./es";
+import pt from "./pt";
 import ReactFlagsSelect from "react-flags-select";
 import "react-flags-select/css/react-flags-select.css";
 
@@ -25,10 +26,16 @@ class App extends React.Component {
     if (option === "AU") this.setState({ language: "en" });
   };
 
+  getCVInLanguage = () => {
+    const { language } = this.state;
+    if(language === 'pt') return pt;
+    if(language === 'es') return es;
+    if(language === 'en') return en;
+  }
+
   render() {
     const { classes } = this.props;
-    const { language } = this.state;
-    const cv = language === "en" ? en : es;
+    const cv = this.getCVInLanguage();
     return (
       <div className={classes.root}>
         <Header cv={cv} />

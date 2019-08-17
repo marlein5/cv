@@ -8,7 +8,7 @@ const About = ({ classes, cv }) => {
       <div className={classes.title}>{cv.about.title}</div>
       {cv.about.items.map(item => {
         return (
-          <div key={item.text}>
+          <div key={`${item.text}-${cv.language}`}>
             <a href={item.url}>{item.text}</a>
           </div>
         );
